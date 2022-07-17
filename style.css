@@ -1,0 +1,122 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 37.5rem;
+    margin: 2rem auto;
+    background-color: #ededed;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    height: 6.7rem;
+    border-bottom: 1px solid rgba(198, 198, 198, 1);
+    background-color: white;
+
+}
+
+.header--logo {
+    width: 12.7rem;
+    height: 3.3rem;
+}
+
+.header--author {
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 50%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 54.5rem;
+    margin-bottom: 2.5rem;
+    background-color: white;
+}
+.main--head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5.5rem;
+    padding: 1rem;
+}
+
+.main--head__user-image {
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 50%;
+}
+
+.main--head__info-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.7rem;
+}
+
+.main--head__user-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+}
+
+.main--head__user-location {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.main--post {
+    width: 37.5rem;
+    height: 37.5rem;
+}
+
+.main--post__user-post {
+    width: 100%;
+    height: 37.5rem;
+}
+
+.footer--controls {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.1rem 1.9rem 1.6rem 1rem;
+    height: 11.5rem;
+}
+
+.likeImg, .shareImg, .commentImg {
+    margin-right: 2rem;
+}
+
+.likeImg:hover, .shareImg:hover, .commentImg:hover {
+    opacity: 0.4;
+}
+
+.likeCount {
+    margin: 0.5rem 0;
+}
+
+.likeCount, .userName {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+}
+.comment {
+    display: inline;
+    font-weight: 400;
+    margin-left: 0.4rem;
+}
+
+
+
